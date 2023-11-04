@@ -2,7 +2,7 @@ import React from "react";
 
 const FeatureCard = (props) => {
   return (
-    <div className="bg-bg-primary w-full h-fit shadow-xl rounded py-4 px-4 md:px-8">
+    <div className="bg-bg-primary w-full h-fit md:h-[28rem] rounded py-4 px-4 md:px-8">
       {!props.reverse && (
         <div className="flex flex-col gap-8 md:flex-row">
           <img

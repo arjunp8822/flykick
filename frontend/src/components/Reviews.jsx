@@ -1,23 +1,28 @@
 import React from "react";
-import BannerImg from "../assets/banner-img.png";
+import Innovation from "../assets/innovation.svg";
+import LevelUp from "../assets/levelup.svg";
+import Solidarity from "../assets/solidarity.svg";
 import ReviewCard from "./ReviewCard";
 
 const Reviews = () => {
   const reviews = [
     {
-      company: "Reclaim Control",
-      review: "This is some text content you need to write",
-      img: BannerImg,
+      company: "Innovation Digital Play",
+      review:
+        "We have been using FlyKick for a few months now, and the results have been incredible. It truly helps us regain control of our revenue process. It's a game-changer for our business.",
+      img: Innovation,
     },
     {
-      company: "Ramp Up Sales",
-      review: "This is some text content you need to write",
-      img: BannerImg,
+      company: "LevelUp Financial Audit",
+      review:
+        "The real-time sales executive support is a game-changer! With this solution, our sales team has access to the guidance and knowledge they need right when they need it. The transformation in their performance has been remarkable.",
+      img: LevelUp,
     },
     {
-      company: "Full Visibility",
-      review: "This is some text content you need to write",
-      img: BannerImg,
+      company: "Solidarity",
+      review:
+        "I can't say enough about the full visibility we now have across our entire sales funnel. It has brought a new level of transparency and understanding to our sales process. Making informed decisions is easier than ever, and it's had a positive impact on our sales outcomes. ",
+      img: Solidarity,
     },
   ];
 
