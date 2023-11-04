@@ -7,19 +7,19 @@ h1 {
 }
 
 h2 {
-  @apply text-[calc(1.475rem+0.9vw)] xl:text-5xl;
+  @apply text-[calc(1.475rem+0.9vw)] xl:text-5xl leading-tight xl:leading-none;
 }
 
 h3 {
-  @apply text-[calc(1.3rem+0.4vw)] xl:text-4xl;
+  @apply text-[calc(1.3rem+0.4vw)] xl:text-4xl leading-tight xl:leading-none;
 }
 
 h4 {
-  @apply text-[calc(1.275rem+0.3vw)] xl:text-3xl;
+  @apply text-[calc(1.275rem+0.3vw)] xl:text-3xl leading-tight xl:leading-none;
 }
 
 h5 {
-  @apply text-base;
+  @apply text-base leading-tight xl:leading-none;
 }
 
 p {

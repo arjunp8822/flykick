@@ -1,24 +1,29 @@
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
+import Logo from "../assets/logo.png";
 import { AiOutlineClose, AiOutlineRight } from "react-icons/ai";
 
 const Navbar = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <div className="mx-auto px-4 xl:px-12 max-w-7xl flex justify-between items-center h-16 md:h-20">
-      <div>Logo</div>
+      <a href="/">
+        <img src={Logo} alt="FlyKick" className="w-24" />
+      </a>
 
       {/* mobile nav */}
       <div
         className={
           showMobileNav
             ? "fixed top-4 opacity-100 right-4 w-9/12 h-5/6 p-4 md:hidden bg-white shadow transition-all ease-in-out duration-300 z-10 rounded"
-            : "fixed -top-full opacity-0 right-4 w-11/12 h-5/6 p-4 md:hidden bg-white shadow transition-all ease-in-out duration-300 z-10 rounded"
+            : "fixed -top-full opacity-0 right-4 w-9/12 h-5/6 p-4 md:hidden bg-white shadow transition-all ease-in-out duration-300 z-10 rounded"
         }
       >
         <div className="h-full relative">
           <div className="flex justify-between absolute w-full">
-            <a href="">Logo</a>
+            <a href="/">
+              <img src={Logo} alt="FlyKick" className="w-24" />
+            </a>
             <div className="text-2xl md:hidden">
               <AiOutlineClose onClick={() => setShowMobileNav(false)} />
             </div>
