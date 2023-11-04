@@ -4,12 +4,12 @@ import { AiFillStar } from "react-icons/ai";
 const ReviewCard = (props) => {
   return (
     <div className="flex flex-col gap-2 shadow-xl px-4 py-8 rounded justify-between bg-white">
-      <div className="flex justify-between items-center h-16">
+      <div className="flex justify-between items-center mb-4">
         <h5 className="font-medium text-cta">{props.company}</h5>
         <img
           src={props.img}
           alt="Logo"
-          className="w-12 rounded-full object-cover"
+          className="w-12 h-12 rounded-full object-cover"
         />
       </div>
       <p className="text-font-secondary h-32 text-sm">{props.review}</p>
