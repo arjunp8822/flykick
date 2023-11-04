@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-[calc(1.675rem+2.5vw)] xl:text-7xl font-semibold leading-tight xl:leading-none;
+}
+
+h2 {
+  @apply text-[calc(1.475rem+0.9vw)] xl:text-5xl;
+}
+
+h3 {
+  @apply text-[calc(1.3rem+0.4vw)] xl:text-4xl;
+}
+
+h4 {
+  @apply text-[calc(1.275rem+0.3vw)] xl:text-3xl;
+}
+
+h5 {
+  @apply text-base;
+}
+
+p {
+  @apply text-sm xl:text-base;
+}
+
+button {
+  @apply px-6 py-2 rounded text-sm xl:text-base font-semibold;
+}
+
+.container {
+  @apply px-4 xl:px-12 py-16 xl:py-24 mx-auto max-w-7xl;
+}
