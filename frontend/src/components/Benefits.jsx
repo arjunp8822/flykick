@@ -1,7 +1,7 @@
 import React from "react";
 import BenefitCard from "./BenefitCard";
-import ReclaimControl from "../assets/reclaim-control.png";
-import RampUp from "../assets/ramp-up.png";
+import ReclaimControl from "../assets/reclaimcontrol.png";
+import RampUp from "../assets/rampup.png";
 import Visibility from "../assets/visibility.png";
 
 const Benefits = () => {
