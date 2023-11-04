@@ -10,7 +10,7 @@ const Banner = () => {
           Do you want to boost revenue and make predictions with accuracy?
         </h4>
         <button className="bg-bg-cta text-white w-fit">
-          Join the waitlist
+          <a href="#onboard">Join the waitlist</a>
         </button>
       </div>
       <div className="w-full lg:w-6/12 shadow-xl">

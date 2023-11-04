@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply scroll-smooth;
+}
+
 h1 {
   @apply text-[calc(1.675rem+2.5vw)] xl:text-7xl font-semibold leading-tight xl:leading-none;
 }

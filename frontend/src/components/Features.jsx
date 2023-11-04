@@ -33,10 +33,10 @@ const Features = () => {
   ];
 
   return (
-    <div>
-      <h5 className="mb-4 text-bg-cta font-medium">Immediate value</h5>
+    <div id="features">
+      <h5 className="mb-4 text-bg-cta font-medium">Unique features</h5>
       <h4 className="text-font-primary font-medium mb-8 md:mb-12">
-        Here is how FlyKick will benefit your business
+        One tool for the entire revenue team, packed with features
       </h4>
       <div className="flex flex-col gap-8 lg:gap-24 justify-center items-center">
         {features.map((x) => (

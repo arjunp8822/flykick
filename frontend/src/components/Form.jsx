@@ -24,9 +24,9 @@ const Form = () => {
   };
   return (
     <div>
-      <h5 className="mb-4 text-bg-cta font-medium">Immediate value</h5>
+      <h5 className="mb-4 text-bg-cta font-medium">Get started</h5>
       <h4 className="text-font-primary font-medium mb-8 md:mb-12">
-        Here is how FlyKick will benefit your business
+        FlyKick is launching soon, join the waitlist today
       </h4>
       <form
         className="flex flex-col gap-4"
@@ -37,7 +37,10 @@ const Form = () => {
       >
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
           <div className="flex flex-col gap-1 w-full">
-            <label for="first" className="text-gray-500 font-medium text-sm">
+            <label
+              for="first"
+              className="text-gray-500 font-medium text-sm ml-1"
+            >
               First Name
             </label>
             <input
@@ -45,14 +48,17 @@ const Form = () => {
               placeholder="John"
               name="first"
               id="first"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"
             />
           </div>
           <div className="flex flex-col gap-1 w-full">
-            <label for="last" className="text-gray-500 font-medium text-sm">
+            <label
+              for="last"
+              className="text-gray-500 font-medium text-sm ml-1"
+            >
               Last Name
             </label>
             <input
@@ -60,7 +66,7 @@ const Form = () => {
               placeholder="Smith"
               name="last"
               id="last"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"
@@ -70,7 +76,10 @@ const Form = () => {
 
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
           <div className="flex flex-col gap-1 w-full">
-            <label for="email" className="text-gray-500 font-medium text-sm">
+            <label
+              for="email"
+              className="text-gray-500 font-medium text-sm ml-1"
+            >
               Email
             </label>
             <input
@@ -78,14 +87,17 @@ const Form = () => {
               placeholder="johnsmith@gmail.com"
               name="email"
               id="email"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"
             />
           </div>
           <div className="flex flex-col gap-1 w-full">
-            <label for="phone" className="text-gray-500 font-medium text-sm">
+            <label
+              for="phone"
+              className="text-gray-500 font-medium text-sm ml-1"
+            >
               Phone
             </label>
             <input
@@ -93,7 +105,7 @@ const Form = () => {
               placeholder="0424 073 944"
               name="phone"
               id="phone"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"
@@ -103,7 +115,10 @@ const Form = () => {
 
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
           <div className="flex flex-col gap-1 w-full">
-            <label for="company" className="text-gray-500 font-medium text-sm">
+            <label
+              for="company"
+              className="text-gray-500 font-medium text-sm ml-1"
+            >
               Company Name
             </label>
             <input
@@ -111,14 +126,14 @@ const Form = () => {
               placeholder="John Smith Finance"
               name="company"
               id="company"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"
             />
           </div>
           <div className="flex flex-col gap-1 w-full">
-            <label for="job" className="text-gray-500 font-medium text-sm">
+            <label for="job" className="text-gray-500 font-medium text-sm ml-1">
               Job Title
             </label>
             <input
@@ -126,7 +141,7 @@ const Form = () => {
               placeholder="CEO"
               name="job"
               id="job"
-              className="border rounded px-4 py-2"
+              className="border rounded px-4 py-2 text-sm"
               required
               min="2"
               max="30"

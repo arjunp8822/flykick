@@ -27,10 +27,10 @@ const Reviews = () => {
   ];
 
   return (
-    <div>
-      <h5 className="mb-4 text-bg-cta font-medium">Immediate value</h5>
+    <div id="reviews">
+      <h5 className="mb-4 text-bg-cta font-medium">Exceeding expectations</h5>
       <h4 className="text-font-primary font-medium mb-8 md:mb-12">
-        Here is how FlyKick will benefit your business
+        Customer and partner testimonials
       </h4>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
         {reviews.map((review) => (

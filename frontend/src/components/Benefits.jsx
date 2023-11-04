@@ -26,7 +26,7 @@ const Benefits = () => {
     },
   ];
   return (
-    <div>
+    <div id="benefits">
       <h5 className="mb-4 text-bg-cta font-medium">Immediate value</h5>
       <h4 className="text-font-primary font-medium mb-8 md:mb-12">
         Here is how FlyKick will benefit your business
