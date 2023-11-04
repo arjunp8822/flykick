@@ -10,10 +10,10 @@ const Form = () => {
     e.preventDefault();
     try {
       const response = await emailjs.sendForm(
-        "service_mmx23ii",
-        "template_rer61k9",
-        form.current,
-        "twcfsdyMRI2RLLHE1"
+        // "service_mmx23ii",
+        // "template_rer61k9",
+        form.current
+        // "twcfsdyMRI2RLLHE1"
       );
       document.form.reset();
       setSubmitState(true);
