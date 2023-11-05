@@ -154,7 +154,7 @@ const Form = () => {
           </button>
         )}
         {!submitState && (
-          <button className="bg-bg-cta text-white w-fit mt-8">
+          <button className="bg-bg-cta text-white w-fit mt-8 hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150">
             Join the waitlist
           </button>
         )}

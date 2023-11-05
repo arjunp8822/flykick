@@ -69,7 +69,7 @@ const Navbar = () => {
             <li className="mt-8 w-full">
               <a href="#onboard">
                 <button
-                  className="bg-bg-cta text-white w-full"
+                  className="bg-bg-cta text-white w-full hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150"
                   onClick={() => setShowMobileNav(false)}
                 >
                   Join the waitlist
@@ -105,7 +105,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#onboard">
-              <button className="bg-bg-cta text-white">
+              <button className="bg-bg-cta text-white hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150">
                 Join the waitlist
               </button>
             </a>

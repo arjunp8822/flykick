@@ -11,7 +11,7 @@ const Banner = () => {
           <h4 className="text-font-secondary">
             Do you want to boost revenue and make predictions with accuracy?
           </h4>
-          <button className="bg-bg-cta text-white w-fit">
+          <button className="bg-bg-cta text-white w-fit hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150">
             <a href="#onboard">Join the waitlist</a>
           </button>
         </div>
