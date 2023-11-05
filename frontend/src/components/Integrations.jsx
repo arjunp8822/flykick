@@ -12,7 +12,7 @@ import zoom from "../assets/companies/zoom.png";
 const Integrations = () => {
   return (
     <div>
-      <div className="grid grid-cols-4 md:grid-cols-4 gap-8 items-center place-items-center">
+      <div className="grid grid-cols-4 md:grid-cols-4 gap-8 md:gap-16 items-center place-items-center">
         <img src={adwords} alt="adwords" className="w-8 md:w-16" />
         <img src={gmail} alt="gmail" className="w-8 md:w-16" />
         <img src={hubspot} alt="hubspot" className="w-8 md:w-16" />
