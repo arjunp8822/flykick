@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 const Form = () => {
   const form = useRef();
@@ -23,7 +24,14 @@ const Form = () => {
     }
   };
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, y: "100px" }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        type: "just",
+        duration: 0.8,
+      }}
+    >
       <h5 className="mb-4 text-bg-cta font-medium">Get started</h5>
       <h4 className="text-font-primary font-medium mb-8 md:mb-12">
         FlyKick is launching soon, join the waitlist today
@@ -159,7 +167,7 @@ const Form = () => {
           </button>
         )}
       </form>
-    </div>
+    </motion.div>
   );
 };
 

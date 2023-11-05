@@ -2,14 +2,20 @@ import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import Logo from "../assets/logo.png";
 import { AiOutlineClose, AiOutlineRight } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <div className="mx-auto px-4 xl:px-12 max-w-7xl flex justify-between items-center h-16 md:h-20">
-      <a href="/">
+      <motion.a
+        href="/"
+        initial={{ translateY: "-32px", opacity: 0 }}
+        animate={{ translateY: 0, opacity: 1 }}
+        transition={{ type: "just", duration: 0.5, delay: 0 }}
+      >
         <img src={Logo} alt="FlyKick" className="w-24" />
-      </a>
+      </motion.a>
 
       {/* mobile nav */}
       <div
@@ -79,37 +85,61 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="text-2xl md:hidden">
+      <motion.div
+        className="text-2xl md:hidden"
+        initial={{ translateY: "-32px", opacity: 0 }}
+        animate={{ translateY: 0, opacity: 1 }}
+        transition={{ type: "just", duration: 0.5, delay: 0.2 }}
+      >
         <FiMenu onClick={() => setShowMobileNav(true)} />
-      </div>
+      </motion.div>
 
       {/* web nav */}
       <div className="hidden md:flex">
         <ul className="flex gap-8 items-center font-semibold text-font-primary">
-          <li className="cursor-pointer hover:text-gray-500">
+          <motion.li
+            className="cursor-pointer hover:text-gray-500"
+            initial={{ translateY: "-32px", opacity: 0 }}
+            animate={{ translateY: 0, opacity: 1 }}
+            transition={{ type: "just", duration: 0.5, delay: 0.1 }}
+          >
             <a href="#benefits">
               <h5>Benefits</h5>
             </a>
-          </li>
+          </motion.li>
 
-          <li className="cursor-pointer hover:text-gray-500">
+          <motion.li
+            className="cursor-pointer hover:text-gray-500"
+            initial={{ translateY: "-32px", opacity: 0 }}
+            animate={{ translateY: 0, opacity: 1 }}
+            transition={{ type: "just", duration: 0.5, delay: 0.2 }}
+          >
             <a href="#features">
               <h5>Features</h5>
             </a>
-          </li>
+          </motion.li>
 
-          <li className="cursor-pointer hover:text-gray-500">
+          <motion.li
+            className="cursor-pointer hover:text-gray-500"
+            initial={{ translateY: "-32px", opacity: 0 }}
+            animate={{ translateY: 0, opacity: 1 }}
+            transition={{ type: "just", duration: 0.5, delay: 0.3 }}
+          >
             <a href="#reviews">
               <h5>Reviews</h5>
             </a>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li
+            initial={{ translateY: "-32px", opacity: 0 }}
+            animate={{ translateY: 0, opacity: 1 }}
+            transition={{ type: "just", duration: 0.5, delay: 0.4 }}
+          >
             <a href="#onboard">
               <button className="bg-bg-cta text-white hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150">
                 Join the waitlist
               </button>
             </a>
-          </li>
+          </motion.li>
         </ul>
       </div>
     </div>

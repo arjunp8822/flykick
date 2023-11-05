@@ -3,6 +3,7 @@ import Video from "../assets/video.png";
 import NRN from "../assets/nrn.png";
 import Action from "../assets/action.png";
 import FeatureCard from "./FeatureCard";
+import { motion } from "framer-motion";
 
 const Features = () => {
   const features = [
@@ -34,19 +35,37 @@ const Features = () => {
 
   return (
     <div id="features">
-      <h5 className="mb-4 text-bg-cta font-medium">Unique features</h5>
-      <h4 className="text-font-primary font-medium mb-8 md:mb-12">
-        One tool for the entire revenue team, packed with features
-      </h4>
+      <motion.div
+        initial={{ opacity: 0, y: "100px" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "just",
+          duration: 0.8,
+        }}
+      >
+        <h5 className="mb-4 text-bg-cta font-medium">Unique features</h5>
+        <h4 className="text-font-primary font-medium mb-8 md:mb-12">
+          One tool for the entire revenue team, packed with features
+        </h4>
+      </motion.div>
       <div className="flex flex-col gap-8 lg:gap-24 justify-center items-center">
         {features.map((x) => (
-          <FeatureCard
-            title={x.title}
-            content={x.content}
-            img={x.img}
-            cta={x.cta}
-            reverse={x.reverse}
-          />
+          <motion.div
+            initial={{ opacity: 0, y: "100px" }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "just",
+              duration: 0.8,
+            }}
+          >
+            <FeatureCard
+              title={x.title}
+              content={x.content}
+              img={x.img}
+              cta={x.cta}
+              reverse={x.reverse}
+            />
+          </motion.div>
         ))}
       </div>
     </div>

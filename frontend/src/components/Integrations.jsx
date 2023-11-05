@@ -8,19 +8,108 @@ import salesforce from "../assets/companies/salesforce.png";
 import slack from "../assets/companies/slack.png";
 import teams from "../assets/companies/teams.svg";
 import zoom from "../assets/companies/zoom.png";
+import { motion } from "framer-motion";
 
 const Integrations = () => {
   return (
     <div>
       <div className="grid grid-cols-4 md:grid-cols-4 gap-8 md:gap-16 items-center place-items-center">
-        <img src={adwords} alt="adwords" className="w-8 md:w-16" />
-        <img src={gmail} alt="gmail" className="w-8 md:w-16" />
-        <img src={hubspot} alt="hubspot" className="w-8 md:w-16" />
-        <img src={outlook} alt="outlook" className="w-8 md:w-16" />
-        <img src={salesforce} alt="salesforce" className="w-8 md:w-16" />
-        <img src={slack} alt="slack" className="w-8 md:w-16" />
-        <img src={teams} alt="teams" className="w-8 md:w-16" />
-        <img src={zoom} alt="zoom" className="w-8 md:w-16" />
+        <motion.img
+          src={adwords}
+          alt="adwords"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 0.7,
+          }}
+        />
+        <motion.img
+          src={gmail}
+          alt="gmail"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 0.9,
+          }}
+        />
+        <motion.img
+          src={hubspot}
+          alt="hubspot"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 1.1,
+          }}
+        />
+        <motion.img
+          src={outlook}
+          alt="outlook"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 1.3,
+          }}
+        />
+        <motion.img
+          src={salesforce}
+          alt="salesforce"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 1.5,
+          }}
+        />
+        <motion.img
+          src={slack}
+          alt="slack"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 1.7,
+          }}
+        />
+        <motion.img
+          src={teams}
+          alt="teams"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 1.9,
+          }}
+        />
+        <motion.img
+          src={zoom}
+          alt="zoom"
+          className="w-8 md:w-16"
+          initial={{ opacity: 0, y: "100px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "just",
+            duration: 0.8,
+            delay: 2.1,
+          }}
+        />
       </div>
     </div>
   );
