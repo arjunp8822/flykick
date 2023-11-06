@@ -11,7 +11,7 @@ const Banner = () => {
       transition={{
         type: "just",
         duration: 0.8,
-        delay: 0.6,
+        delay: 0.1,
       }}
     >
       <div className="flex flex-col lg:flex-row gap-16">

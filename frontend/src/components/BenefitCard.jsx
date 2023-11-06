@@ -2,7 +2,7 @@ import React from "react";
 
 const BenefitCard = (props) => {
   return (
-    <div className="bg-bg-primary w-full h-[32rem] shadow-xl rounded p-4 flex flex-col">
+    <div className="bg-bg-primary w-full h-[32rem] shadow-xl rounded p-4 flex flex-col cursor-pointer hover:scale-105 transition-all duration-150">
       <img src={props.img} alt={props.title} className="h-1/2 rounded mb-8" />
       <div className="h-1/2">
         <h5 className="font-medium mb-4">{props.title}</h5>

@@ -23,7 +23,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 0.7,
+            delay: 0.1,
           }}
         />
         <motion.img
@@ -35,7 +35,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 0.9,
+            delay: 0.2,
           }}
         />
         <motion.img
@@ -47,7 +47,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 1.1,
+            delay: 0.3,
           }}
         />
         <motion.img
@@ -59,7 +59,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 1.3,
+            delay: 0.4,
           }}
         />
         <motion.img
@@ -71,7 +71,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 1.5,
+            delay: 0.5,
           }}
         />
         <motion.img
@@ -83,7 +83,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 1.7,
+            delay: 0.6,
           }}
         />
         <motion.img
@@ -95,7 +95,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 1.9,
+            delay: 0.7,
           }}
         />
         <motion.img
@@ -107,7 +107,7 @@ const Integrations = () => {
           transition={{
             type: "just",
             duration: 0.8,
-            delay: 2.1,
+            delay: 0.8,
           }}
         />
       </div>
