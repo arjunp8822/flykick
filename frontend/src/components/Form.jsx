@@ -26,6 +26,7 @@ const Form = () => {
     <motion.div
       initial={{ opacity: 0, y: "100px" }}
       whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       transition={{
         type: "just",
         duration: 0.8,

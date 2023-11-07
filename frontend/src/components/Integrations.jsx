@@ -20,6 +20,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -32,6 +33,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -44,6 +46,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -56,6 +59,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -68,6 +72,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -80,6 +85,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -92,6 +98,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,
@@ -104,6 +111,7 @@ const Integrations = () => {
           className="w-8 md:w-16"
           initial={{ opacity: 0, y: "100px" }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             type: "just",
             duration: 0.8,

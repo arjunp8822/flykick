@@ -34,6 +34,7 @@ const Benefits = () => {
       id="benefits"
       initial={{ opacity: 0, y: "100px" }}
       whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       transition={{
         type: "just",
         duration: 0.8,
@@ -49,6 +50,7 @@ const Benefits = () => {
             className="w-full"
             initial={{ opacity: 0, y: "100px" }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
               type: "just",
               duration: 0.8,

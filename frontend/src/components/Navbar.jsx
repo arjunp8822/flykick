@@ -11,7 +11,8 @@ const Navbar = () => {
       <motion.a
         href="/"
         initial={{ translateY: "-32px", opacity: 0 }}
-        animate={{ translateY: 0, opacity: 1 }}
+        whileInView={{ translateY: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{ type: "just", duration: 0.5, delay: 0 }}
       >
         <img src={Logo} alt="FlyKick" className="w-24" />
@@ -88,7 +89,8 @@ const Navbar = () => {
       <motion.div
         className="text-2xl md:hidden"
         initial={{ translateY: "-32px", opacity: 0 }}
-        animate={{ translateY: 0, opacity: 1 }}
+        whileInView={{ translateY: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{ type: "just", duration: 0.5, delay: 0.2 }}
       >
         <FiMenu onClick={() => setShowMobileNav(true)} />
@@ -100,7 +102,8 @@ const Navbar = () => {
           <motion.li
             className="cursor-pointer hover:text-gray-500"
             initial={{ translateY: "-32px", opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ type: "just", duration: 0.5, delay: 0.1 }}
           >
             <a href="#benefits">
@@ -111,7 +114,8 @@ const Navbar = () => {
           <motion.li
             className="cursor-pointer hover:text-gray-500"
             initial={{ translateY: "-32px", opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ type: "just", duration: 0.5, delay: 0.2 }}
           >
             <a href="#features">
@@ -122,7 +126,8 @@ const Navbar = () => {
           <motion.li
             className="cursor-pointer hover:text-gray-500"
             initial={{ translateY: "-32px", opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ type: "just", duration: 0.5, delay: 0.3 }}
           >
             <a href="#reviews">
@@ -131,7 +136,8 @@ const Navbar = () => {
           </motion.li>
           <motion.li
             initial={{ translateY: "-32px", opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ type: "just", duration: 0.5, delay: 0.4 }}
           >
             <a href="#onboard">
