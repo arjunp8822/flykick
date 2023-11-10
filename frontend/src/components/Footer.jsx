@@ -10,7 +10,7 @@ const Footer = () => {
         <AiFillCopyrightCircle className="text-bg-cta text-2xl" />
         <div className="cursor-pointer hover:text-gray-400 transition duration-100">
           <p className="text-font-primary font-medium">
-            FlyKick 2023. All rights reserved.
+            FlyKick Technologies 2023. All rights reserved.
           </p>
         </div>
       </div>
