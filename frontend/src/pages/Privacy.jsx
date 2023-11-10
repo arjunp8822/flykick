@@ -140,9 +140,8 @@ const Privacy = () => {
           <h4 className="font-medium">3. Complaints about privacy</h4>
           <p>
             If you have any complaints about our privacy practices, please email
-            us at privacy@Flair Technologies.co. We take complaints very
-            seriously and will respond shortly after receiving notice of your
-            complaint.
+            us at privacy@flykick.co. We take complaints very seriously and will
+            respond shortly after receiving notice of your complaint.
           </p>
         </div>
 
@@ -160,11 +159,11 @@ const Privacy = () => {
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">5. Website</h4>
           <p>
-            When you come to our website (www.Flair Technologies.co) we may
-            collect certain information such as browser type, operating system,
-            website visited immediately before coming to our site, etc. This
-            information is used in an aggregated manner to analyse how people
-            use our site, such that we can improve our service.
+            When you come to our website (www.flykick.co) we may collect certain
+            information such as browser type, operating system, website visited
+            immediately before coming to our site, etc. This information is used
+            in an aggregated manner to analyse how people use our site, such
+            that we can improve our service.
           </p>
         </div>
 
