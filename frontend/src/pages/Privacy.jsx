@@ -21,7 +21,7 @@ const Privacy = () => {
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">2. Collection of Personal Information</h4>
           <p>
-            Flair Technologies will, from time to time, receive and store
+            FlyKick Technologies will, from time to time, receive and store
             personal information you enter onto our website, provided to us
             directly or given to us in other forms. You may provide basic
             information such as your name, phone number, address and email
@@ -42,7 +42,7 @@ const Privacy = () => {
             2.1. How we collect your personal information
           </h4>
           <p>
-            Flair Technologies collects personal information from you in a
+            FlyKick Technologies collects personal information from you in a
             variety of ways, including when you interact with us electronically
             or in person, when you access our website and when we provide our
             services to you. We may receive personal information from third
@@ -54,12 +54,12 @@ const Privacy = () => {
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">2.2. Use of your personal information</h4>
           <p>
-            Flair Technologies may use personal information collected from you
+            FlyKick Technologies may use personal information collected from you
             to provide you with information, updates and our services. We may
             also make you aware of new and additional products, services and
             opportunities available to you. We may use your personal information
             to improve our products and services and better understand your
-            needs. Flair Technologies may contact you by a variety of measures
+            needs. FlyKick Technologies may contact you by a variety of measures
             including, but not limited to telephone, email, sms or mail.
           </p>
         </div>
@@ -79,23 +79,22 @@ const Privacy = () => {
             subpoena, warrant, in the course of a legal proceeding or in
             response to a law enforcement agency request. We may also use your
             personal information to protect the copyright, trademarks, legal
-            rights, property or safety of Flair Technologies, www.Flair
-            Technologies.co, its customers or third parties. Information that we
-            collect may from time to time be stored, processed in or transferred
-            between parties located in countries outside of Australia. If there
-            is a change of control in our business or a sale or transfer of
-            business assets, we reserve the right to transfer to the extent
-            permissible at law our user databases, together with any personal
-            information and non-personal information contained in those
-            databases. This information may be disclosed to a potential
-            purchaser under an agreement to maintain confidentiality. We would
-            seek to only disclose information in good faith and where required
-            by any of the above circumstances. By providing us with personal
-            information, you consent to the terms of this Privacy Policy and the
-            types of disclosure covered by this Policy. Where we disclose your
-            personal information to third parties, we will request that the
-            third party follow this Policy regarding handling your personal
-            information.
+            rights, property or safety of FlyKick Technologies, www.flykick.co,
+            its customers or third parties. Information that we collect may from
+            time to time be stored, processed in or transferred between parties
+            located in countries outside of Australia. If there is a change of
+            control in our business or a sale or transfer of business assets, we
+            reserve the right to transfer to the extent permissible at law our
+            user databases, together with any personal information and
+            non-personal information contained in those databases. This
+            information may be disclosed to a potential purchaser under an
+            agreement to maintain confidentiality. We would seek to only
+            disclose information in good faith and where required by any of the
+            above circumstances. By providing us with personal information, you
+            consent to the terms of this Privacy Policy and the types of
+            disclosure covered by this Policy. Where we disclose your personal
+            information to third parties, we will request that the third party
+            follow this Policy regarding handling your personal information.
           </p>
         </div>
 
@@ -130,9 +129,9 @@ const Privacy = () => {
             information. If you would like a copy of the information, which we
             hold about you or believe that any information we hold on you is
             inaccurate, out of date, incomplete, irrelevant or misleading,
-            please email us at privacy@Flair Technologies.co. We reserve the
-            right to refuse to provide you with information that we hold about
-            you, in certain circumstances set out in the Privacy Act.
+            please email us at privacy@flykick.co. We reserve the right to
+            refuse to provide you with information that we hold about you, in
+            certain circumstances set out in the Privacy Act.
           </p>
         </div>
 
@@ -192,7 +191,7 @@ const Privacy = () => {
             owned or controlled by us. These links are meant for your
             convenience only. Links to third party websites do not constitute
             sponsorship or endorsement or approval of these websites. Please be
-            aware that Flair Technologies is not responsible for the privacy
+            aware that FlyKick Technologies is not responsible for the privacy
             practices of other such websites. We encourage our users to be
             aware, when they leave our website, to read the privacy statements
             of each and every website that collects personal identifiable
