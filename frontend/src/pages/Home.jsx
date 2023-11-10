@@ -4,7 +4,6 @@ import Benefits from "../components/Benefits";
 import Features from "../components/Features";
 import Reviews from "../components/Reviews";
 import Form from "../components/Form";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -36,12 +35,6 @@ const Home = () => {
       <div>
         <div className="container">
           <Form />
-        </div>
-      </div>
-
-      <div className="bg-bg-secondary">
-        <div className="container">
-          <Footer />
         </div>
       </div>
     </div>
