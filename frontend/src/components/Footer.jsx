@@ -1,6 +1,7 @@
 import React from "react";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { AiFillInstagram, AiFillCopyrightCircle } from "react-icons/ai";
+import { BsDot } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -16,7 +17,9 @@ const Footer = () => {
       <div className="mb-8">
         <p>ABN 88 672 225 268</p>
       </div>
-      <div>
+      <div className="flex gap-2 justify-center items-center">
+        <a href="/">Home</a>
+        <BsDot />
         <a href="/privacy">Privacy policy</a>
       </div>
     </div>
