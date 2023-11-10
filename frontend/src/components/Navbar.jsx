@@ -58,7 +58,10 @@ const Navbar = () => {
               className="flex justify between items-center w-full border-b pb-4"
               onClick={() => scrollToSection("#benefits")}
             >
-              <a className="flex justify-between w-full items-center">
+              <a
+                className="flex justify-between w-full items-center"
+                href="/#benefits"
+              >
                 <h5>Benefits</h5>
                 <AiOutlineRight className="text-lg" />
               </a>
@@ -67,7 +70,10 @@ const Navbar = () => {
               className="flex justify-between items-center w-full border-b pb-4"
               onClick={() => scrollToSection("#features")}
             >
-              <a className="flex justify-between w-full items-center">
+              <a
+                className="flex justify-between w-full items-center"
+                href="/#features"
+              >
                 <h5>Features</h5>
                 <AiOutlineRight className="text-lg" />
               </a>
@@ -77,13 +83,16 @@ const Navbar = () => {
               className="flex justify-between items-center text-center w-full border-b pb-4"
               onClick={() => scrollToSection("#reviews")}
             >
-              <a className="flex justify-between w-full items-center">
+              <a
+                className="flex justify-between w-full items-center"
+                href="/#reviews"
+              >
                 <h5>Reviews</h5>
                 <AiOutlineRight className="text-lg" />
               </a>
             </li>
             <li className="mt-8 w-full">
-              <a href="#onboard">
+              <a href="/#onboard">
                 <button
                   className="bg-bg-cta text-white w-full hover:bg-white hover:text-bg-cta border border-bg-cta transition-all duration-150"
                   onClick={() => scrollToSection("#onboard")}

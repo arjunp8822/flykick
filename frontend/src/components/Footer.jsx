@@ -4,14 +4,20 @@ import { AiFillInstagram, AiFillCopyrightCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex gap-2 justify-center items-center">
+    <div className="flex gap-2 justify-center items-center flex-col">
+      <div className="flex flex-row gap-2 mb-2">
         <AiFillCopyrightCircle className="text-bg-cta text-2xl" />
-        <h3 className="cursor-pointer hover:text-gray-400 transition duration-100">
-          <a href="/">
-            <h5 className="text-font-primary font-medium">FlyKick 2023</h5>
-          </a>
-        </h3>
+        <div className="cursor-pointer hover:text-gray-400 transition duration-100">
+          <p className="text-font-primary font-medium">
+            FlyKick 2023. All rights reserved.
+          </p>
+        </div>
+      </div>
+      <div className="mb-8">
+        <p>ABN 88 672 225 268</p>
+      </div>
+      <div>
+        <a href="/privacy">Privacy policy</a>
       </div>
     </div>
   );
