@@ -8,30 +8,32 @@ const Privacy = () => {
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">1. Purpose</h4>
           <p>
-            FlyKick.co (“FlyKick”) respects your right to privacy and is
-            committed to safeguarding the privacy of our customers and website
-            visitors. We adhere to the Australian Privacy Principles contained
-            in the Privacy Act 1988 (Cth). This policy sets out how we collect
-            and treat your personal information. "Personal information" is
-            information we hold which is identifiable as being about you.
+            Flair Technologies Pty Ltd trading as FlyKick Technologies respects
+            your right to privacy and is committed to safeguarding the privacy
+            of our customers and website visitors. We adhere to the Australian
+            Privacy Principles contained in the Privacy Act 1988 (Cth). This
+            policy sets out how we collect and treat your personal information.
+            "Personal information" is information we hold which is identifiable
+            as being about you.
           </p>
         </div>
 
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">2. Collection of Personal Information</h4>
           <p>
-            FlyKick will, from time to time, receive and store personal
-            information you enter onto our website, provided to us directly or
-            given to us in other forms. You may provide basic information such
-            as your name, phone number, address and email address to enable us
-            to send information, provide updates and process your product or
-            service order. We may collect additional information at other times,
-            including but not limited to, when you provide feedback, when you
-            provide information about your personal or business affairs, change
-            your content or email preference, respond to surveys and/or
-            promotions, provide financial or credit card information, or
-            communicate with our customer support. Additionally, we may also
-            collect any other information you provide while interacting with us.
+            Flair Technologies will, from time to time, receive and store
+            personal information you enter onto our website, provided to us
+            directly or given to us in other forms. You may provide basic
+            information such as your name, phone number, address and email
+            address to enable us to send information, provide updates and
+            process your product or service order. We may collect additional
+            information at other times, including but not limited to, when you
+            provide feedback, when you provide information about your personal
+            or business affairs, change your content or email preference,
+            respond to surveys and/or promotions, provide financial or credit
+            card information, or communicate with our customer support.
+            Additionally, we may also collect any other information you provide
+            while interacting with us.
           </p>
         </div>
 
@@ -40,24 +42,25 @@ const Privacy = () => {
             2.1. How we collect your personal information
           </h4>
           <p>
-            FlyKick collects personal information from you in a variety of ways,
-            including when you interact with us electronically or in person,
-            when you access our website and when we provide our services to you.
-            We may receive personal information from third parties. If we do, we
-            will protect it as set out in this Privacy Policy.
+            Flair Technologies collects personal information from you in a
+            variety of ways, including when you interact with us electronically
+            or in person, when you access our website and when we provide our
+            services to you. We may receive personal information from third
+            parties. If we do, we will protect it as set out in this Privacy
+            Policy.
           </p>
         </div>
 
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">2.2. Use of your personal information</h4>
           <p>
-            FlyKick may use personal information collected from you to provide
-            you with information, updates and our services. We may also make you
-            aware of new and additional products, services and opportunities
-            available to you. We may use your personal information to improve
-            our products and services and better understand your needs. FlyKick
-            may contact you by a variety of measures including, but not limited
-            to telephone, email, sms or mail.
+            Flair Technologies may use personal information collected from you
+            to provide you with information, updates and our services. We may
+            also make you aware of new and additional products, services and
+            opportunities available to you. We may use your personal information
+            to improve our products and services and better understand your
+            needs. Flair Technologies may contact you by a variety of measures
+            including, but not limited to telephone, email, sms or mail.
           </p>
         </div>
 
@@ -76,22 +79,23 @@ const Privacy = () => {
             subpoena, warrant, in the course of a legal proceeding or in
             response to a law enforcement agency request. We may also use your
             personal information to protect the copyright, trademarks, legal
-            rights, property or safety of FlyKick, www.flykick.co, its customers
-            or third parties. Information that we collect may from time to time
-            be stored, processed in or transferred between parties located in
-            countries outside of Australia. If there is a change of control in
-            our business or a sale or transfer of business assets, we reserve
-            the right to transfer to the extent permissible at law our user
-            databases, together with any personal information and non-personal
-            information contained in those databases. This information may be
-            disclosed to a potential purchaser under an agreement to maintain
-            confidentiality. We would seek to only disclose information in good
-            faith and where required by any of the above circumstances. By
-            providing us with personal information, you consent to the terms of
-            this Privacy Policy and the types of disclosure covered by this
-            Policy. Where we disclose your personal information to third
-            parties, we will request that the third party follow this Policy
-            regarding handling your personal information.
+            rights, property or safety of Flair Technologies, www.Flair
+            Technologies.co, its customers or third parties. Information that we
+            collect may from time to time be stored, processed in or transferred
+            between parties located in countries outside of Australia. If there
+            is a change of control in our business or a sale or transfer of
+            business assets, we reserve the right to transfer to the extent
+            permissible at law our user databases, together with any personal
+            information and non-personal information contained in those
+            databases. This information may be disclosed to a potential
+            purchaser under an agreement to maintain confidentiality. We would
+            seek to only disclose information in good faith and where required
+            by any of the above circumstances. By providing us with personal
+            information, you consent to the terms of this Privacy Policy and the
+            types of disclosure covered by this Policy. Where we disclose your
+            personal information to third parties, we will request that the
+            third party follow this Policy regarding handling your personal
+            information.
           </p>
         </div>
 
@@ -126,9 +130,9 @@ const Privacy = () => {
             information. If you would like a copy of the information, which we
             hold about you or believe that any information we hold on you is
             inaccurate, out of date, incomplete, irrelevant or misleading,
-            please email us at privacy@flykick.co. We reserve the right to
-            refuse to provide you with information that we hold about you, in
-            certain circumstances set out in the Privacy Act.
+            please email us at privacy@Flair Technologies.co. We reserve the
+            right to refuse to provide you with information that we hold about
+            you, in certain circumstances set out in the Privacy Act.
           </p>
         </div>
 
@@ -136,8 +140,9 @@ const Privacy = () => {
           <h4 className="font-medium">3. Complaints about privacy</h4>
           <p>
             If you have any complaints about our privacy practices, please email
-            us at privacy@flykick.co. We take complaints very seriously and will
-            respond shortly after receiving notice of your complaint.
+            us at privacy@Flair Technologies.co. We take complaints very
+            seriously and will respond shortly after receiving notice of your
+            complaint.
           </p>
         </div>
 
@@ -155,11 +160,11 @@ const Privacy = () => {
         <div className="flex flex-col gap-4 mb-8">
           <h4 className="font-medium">5. Website</h4>
           <p>
-            When you come to our website (www.flykick.co) we may collect certain
-            information such as browser type, operating system, website visited
-            immediately before coming to our site, etc. This information is used
-            in an aggregated manner to analyse how people use our site, such
-            that we can improve our service.
+            When you come to our website (www.Flair Technologies.co) we may
+            collect certain information such as browser type, operating system,
+            website visited immediately before coming to our site, etc. This
+            information is used in an aggregated manner to analyse how people
+            use our site, such that we can improve our service.
           </p>
         </div>
 
@@ -188,10 +193,11 @@ const Privacy = () => {
             owned or controlled by us. These links are meant for your
             convenience only. Links to third party websites do not constitute
             sponsorship or endorsement or approval of these websites. Please be
-            aware that FlyKick is not responsible for the privacy practices of
-            other such websites. We encourage our users to be aware, when they
-            leave our website, to read the privacy statements of each and every
-            website that collects personal identifiable information.
+            aware that Flair Technologies is not responsible for the privacy
+            practices of other such websites. We encourage our users to be
+            aware, when they leave our website, to read the privacy statements
+            of each and every website that collects personal identifiable
+            information.
           </p>
         </div>
       </div>
